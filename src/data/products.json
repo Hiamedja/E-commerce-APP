@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "title": "Comfortable Throw Pillow (Set of 2)",
+    "price": 35.00,
+    "description": "Soft and stylish throw pillows to enhance your living room or bedroom decor. Available in various colors and patterns.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://m.media-amazon.com/images/I/81YLRRBWbJL._AC_UF350,350_QL80_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Modern Geometric Area Rug (5x7 ft)",
+    "price": 129.99,
+    "description": "A contemporary area rug with a geometric design to add style and comfort to your living space.",
+    "category": "Home & Living",
+    "subcategory": "Living Room",
+    "image": "https://m.media-amazon.com/images/I/81QNbNqmQaL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Blackout Curtains (Set of 2 Panels)",
+    "price": 49.99,
+    "description": "Energy-efficient blackout curtains to block sunlight and reduce noise, perfect for bedrooms.",
+    "category": "Home & Living",
+    "subcategory": "Bedroom",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqLAjnfKwKvq283hRwNKi61Tv_6jfQDymqIg&s"
+  },
+  {
+    "id": 4,
+    "title": "Industrial Style Floor Lamp with Adjustable Head",
+    "price": 79.00,
+    "description": "A stylish floor lamp with an industrial design and adjustable head, ideal for reading nooks in the living room or bedroom.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://www.kroger.com/product/images/large/left/0073356982427"
+  },
+  {
+    "id": 5,
+    "title": "Soft Cotton Bed Sheet Set (Queen)",
+    "price": 59.99,
+    "description": "A comfortable and breathable cotton bed sheet set for a restful night's sleep.",
+    "category": "Home & Living",
+    "subcategory": "Bedroom",
+    "image": "https://m.media-amazon.com/images/I/91HsIQUskZL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Mid-Century Modern Coffee Table with Wooden Legs",
+    "price": 149.00,
+    "description": "A stylish mid-century modern coffee table to anchor your living room space.",
+    "category": "Home & Living",
+    "subcategory": "Living Room",
+    "image": "https://img5.su-cdn.com/cdn-cgi/image/width=1000,height=1000/mall/file/2024/07/23/2500x2500_e5400d8089f8e2891f22ad7be831f070.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Decorative Wall Mirror with Metal Frame",
+    "price": 65.00,
+    "description": "A chic wall mirror with a metal frame to add light and style to your living room or bedroom.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://images-cdn.ubuy.co.in/6666c08bea48c26bb158e0c7-large-round-mirror-45-inch-circle-wall.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Memory Foam Pillow for Neck Support",
+    "price": 39.99,
+    "description": "An ergonomic memory foam pillow designed to provide excellent neck support for comfortable sleep.",
+    "category": "Home & Living",
+    "subcategory": "Bedroom",
+    "image": "https://res.cloudinary.com/companystore/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/webimages/11137a_contour_support_lifestyle1_add?pgw=1"
+  },
+  {
+    "id": 9,
+    "title": "Set of 3 Floating Shelves (Wooden)",
+    "price": 45.00,
+    "description": "Versatile wooden floating shelves for displaying decor or storing items in your living room or bedroom.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://i5.walmartimages.com/seo/Honey-Can-Do-Wood-and-Metal-Set-of-3-Floating-Decorative-Wall-Shelves-Rustic-Black_82622468-6460-4094-a0c5-8acfb7629ee3.f3d1c388515f3e4bea5add337abe1e25.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  },
+  {
+    "id": 10,
+    "title": "Plush Velvet Throw Blanket",
+    "price": 29.99,
+    "description": "A soft and luxurious velvet throw blanket perfect for cozying up on the sofa or bed.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://www.outlethome.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-27-at-1.37.07-PM-6-rotated.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "Minimalist Bedside Table with Drawer",
+    "price": 89.00,
+    "description": "A sleek and minimalist bedside table with a drawer for storing essentials.",
+    "category": "Home & Living",
+    "subcategory": "Bedroom",
+    "image": "https://noo.ma/cdn/shop/collections/nooma_FUR1732_AtikBedsideTable_Oak-2.jpg?v=1650021585&width=2048"
+  },
+  {
+    "id": 12,
+    "title": "Woven Cotton Basket for Storage",
+    "price": 22.50,
+    "description": "A stylish woven cotton basket for organizing blankets, toys, or other items in your living room or bedroom.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://lillyandlula.com/cdn/shop/files/S1f52ae8b4a7a48c4bec5cf3c68215ca7q.jpg?v=1715679080&width=1445"
+  },
+  {
+    "id": 13,
+    "title": "Artificial Potted Plant (Faux Greenery)",
+    "price": 32.00,
+    "description": "A realistic artificial potted plant to add a touch of greenery to your living room or bedroom without the maintenance.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://theplantsproject.com.au/cdn/shop/files/Bird_of_Paradise_Plant_Styled_Photo_3_sizes_large.jpg?v=1720590516"
+  },
+  {
+    "id": 14,
+    "title": "Wooden Picture Frame (Set of 3)",
+    "price": 28.00,
+    "description": "A set of three classic wooden picture frames to display your favorite memories in your living room or bedroom.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202449/0003/3-piece-wood-gallery-frame-set-m.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Scented Candle (Soy Wax, Relaxing Lavender)",
+    "price": 18.99,
+    "description": "A natural soy wax scented candle with a calming lavender fragrance, perfect for creating a relaxing atmosphere in the bedroom or living room.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://www.cosycottagesoap.co.uk/cdn/shop/files/lavender-soy-wax-cosy-spa-boxed-candles-478858_620x.jpg?v=1718097250"
+  },
+  {
+    "id": 16,
+    "title": "Ottoman with Storage Compartment",
+    "price": 99.00,
+    "description": "A versatile ottoman that provides extra seating and hidden storage for blankets, pillows, or other items in the living room.",
+    "category": "Home & Living",
+    "subcategory": "Living Room",
+    "image": "https://furniture123.co.uk/Images/SAF128_1_Supersize.jpg?v=5"
+  },
+  {
+    "id": 17,
+    "title": "Duvet Cover Set (Queen, Microfiber)",
+    "price": 69.00,
+    "description": "A soft and durable microfiber duvet cover set to enhance your bedroom decor.",
+    "category": "Home & Living",
+    "subcategory": "Bedroom",
+    "image": "https://m.media-amazon.com/images/I/91EK0xdQSuL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Wall-Mounted Coat Rack with Shelf",
+    "price": 55.00,
+    "description": "A practical wall-mounted coat rack with an integrated shelf for entryways, living rooms, or bedrooms.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://m.media-amazon.com/images/I/91ohBZyH3DL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Set of 2 Linen Cushion Covers",
+    "price": 28.00,
+    "description": "Natural linen cushion covers to add a touch of texture and style to your sofa or bed.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxVrnDWcXMYeMj4PtTMBlh3aPCsV0Dp5l5g&s"
+  },
+  {
+    "id": 20,
+    "title": "Adjustable Laptop Desk for Bed/Sofa",
+    "price": 42.00,
+    "description": "A portable and adjustable laptop desk perfect for working or browsing from the comfort of your bed or sofa.",
+    "category": "Home & Living",
+    "subcategory": "Bedroom & Living Room",
+    "image": "https://m.media-amazon.com/images/I/616vk7YxvDL.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Stylish Wall Clock with Wooden Frame",
+    "price": 35.00,
+    "description": "A modern wall clock with a wooden frame to add a touch of elegance to your living room or bedroom.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ277teJoMTbR1km2fU16a3jmIwb24F_86BYA&s"
+  },
+  {
+    "id": 22,
+    "title": "Handwoven Jute Area Rug (4x6 ft)",
+    "price": 89.99,
+    "description": "A beautiful handwoven jute area rug to add warmth and texture to your living space.",
+    "category": "Home & Living",
+    "subcategory": "Living Room",
+    "image": "https://m.media-amazon.com/images/I/81rzCgwIR4L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Vintage Style Table Lamp with Fabric Shade",
+    "price": 45.00,
+    "description": "A vintage-style table lamp with a fabric shade, perfect for bedside tables or living room side tables.",
+    "category": "Home & Living",
+    "subcategory": "Bedroom & Living Room",
+    "image": "https://images.thdstatic.com/productImages/50b022ff-a041-4f06-b288-ce7774d085e7/svn/antique-white-with-gold-accents-stylecraft-table-lamps-l32331ds-31_600.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Decorative Throw Blanket (Knitted)",
+    "price": 39.99,
+    "description": "A cozy knitted throw blanket to add warmth and style to your sofa or bed.",
+    "category": "Home & Living",
+    "subcategory": "Living Room & Bedroom",
+    "image": "https://m.media-amazon.com/images/I/81TEidIWNeL._AC_UF894,1000_QL80_.jpg"
+  }
+]

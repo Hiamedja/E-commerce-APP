@@ -1,0 +1,671 @@
+/* General Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body Styling
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header
+/* header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+/* }
+
+/* Navigation
+/* nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content 
+main {
+    /* padding: 2rem;
+    background: #fff;
+    margin: 1rem auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer 
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Product Card 
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.product-card p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.product-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.product-card a:hover {
+    background-color: #0056b3;
+}
+
+.product-card button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.product-card button:hover {
+    background-color: #218838;
+}
+/* Responsive Design 
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .product-card {
+        padding: 10px;
+    }
+
+    .product-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .product-card p {
+        font-size: 0.9rem;
+    }
+
+    .product-card a,
+    .product-card button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+/* Product Detail Page 
+.product-detail {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.product-detail img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.product-detail div {
+    flex-grow: 1;
+}
+
+.product-detail h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.product-detail p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-detail button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.product-detail button:hover {
+    background-color: #218838;
+}
+/* Cart Page 
+.cart-page {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.cart-page h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.cart-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cart-page th,
+.cart-page td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-page th {
+    background-color: #f4f4f4;
+}
+
+.cart-page tr:hover {
+    background-color: #f1f1f1;
+}
+
+.cart-page .remove-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-page .remove-btn:hover {
+    background-color: #c82333;
+}
+/* Cart Summary
+.cart-summary {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.cart-summary p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+/* Cart Summary Total
+.cart-summary .total {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+/* Cart Summary Checkout Button
+.cart-summary .checkout-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+/* Cart Summary Checkout Button Hover Effect
+.cart-summary .checkout-btn:hover {
+    background-color: #0056b3;
+}
+/* Cart Summary Checkout Button Disabled State
+.cart-summary .checkout-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+/* Cart Item
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+/* Cart Item Last Child
+.cart-item:last-child {
+    border-bottom: none;
+}
+/* Cart Item Image
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+/* Cart Item Title
+.cart-item h4 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+/* Cart Item Description
+.cart-item p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+/* Cart Item Remove Button
+.cart-item button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+/* Cart Item Remove Button Hover Effect
+.cart-item button:hover {
+    background-color: #c82333;
+}
+/* Cart Item Quantity Input
+.cart-item input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+/* Cart Item Quantity Input Focus Effect
+.cart-item input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+/* Cart Item Quantity Input Disabled State
+.cart-item input[type="number"]:disabled {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+}
+/* Cart Item Quantity Input Error State
+.cart-item input[type="number"].error {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+/* Cart Item Quantity Input Success State
+.cart-item input[type="number"].success {
+    border-color: #28a745;
+    background-color: #d4edda;
+}
+/* Cart Item Quantity Input Warning State
+.cart-item input[type="number"].warning {
+    border-color: #ffc107;
+    background-color: #fff3cd;
+}
+/* Cart Item Quantity Input Info State
+.cart-item input[type="number"].info {
+    border-color: #17a2b8;
+    background-color: #d1ecf1;
+}
+/* Cart Item Quantity Input Light State
+.cart-item input[type="number"].light {
+    border-color: #f8f9fa;
+    background-color: #f8f9fa;
+}
+/* Cart Item Quantity Input Dark State
+.cart-item input[type="number"].dark {
+    border-color: #343a40;
+    background-color: #343a40;
+}
+/* Cart Item Quantity Input Primary State
+/*   .cart-item input[type="number"].primary {
+/*     border-color: #007bff;
+/*     background-color: #007bff;
+
+ 
+/*   }
+/* Cart Item Quantity Input Secondary State
+/*   .cart-item input[type="number"].secondary {
+/*     border-color: #6c757d;
+/*     background-color: #6c757d;
+/*   } */
+/* Cart Item Quantity Input Success State */
+/*   .cart-item input[type="number"].success { */
+/*     border-color: #28a745; */
+/*     background-color: #28a745; */
+/*   } */
+
+/* Cart Item Quantity Input Danger State */
+/*   .cart-item input[type="number"].danger { */
+/*     border-color: #dc3545; */
+
+/*     background-color: #dc3545; */
+/*   } */
+
+/* Homepage
+.homepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* Homepage Product Card
+.homepage .product-card {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+/* Homepage Product Card Hover Effect
+.homepage .product-card:hover {
+    transform: scale(1.05);
+}
+/* Homepage Product Card Image
+.homepage .product-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/* Homepage Product Card Title
+.homepage .product-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+/* Homepage Product Card Description
+.homepage .product-card p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #666;
+}
+/* Homepage Product Card Price
+.homepage .product-card .price {
+    font-size: 1.2rem;
+    color: #28a745;
+    margin: 10px 0;
+}
+/* Homepage Product Card Button
+.homepage .product-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+/* Homepage Product Card Button Hover Effect
+.homepage .product-card a:hover {
+    background-color: #0056b3;
+}
+/* login page
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+/* login page form
+.login-page form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+/* login page form title
+.login-page form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+/* login page form input
+.login-page form input[type="text"],
+.login-page form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/* login page form input focus effect
+.login-page form input[type="text"]:focus,
+.login-page form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+/* login page form button
+.login-page form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+}
+/* login page form button hover effect
+.login-page form button:hover {
+    background-color: #0056b3;
+}
+/* product detail page
+.product-detail-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+/* product detail page form
+.product-detail-page form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+/* product detail page form title
+.product-detail-page form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+/* product detail page form input
+.product-detail-page form input[type="text"],
+.product-detail-page form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/* product detail page form input focus effect
+.product-detail-page form input[type="text"]:focus,
+.product-detail-page form input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+/* product detail page form button
+.product-detail-page form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+}
+/* product detail page form button hover effect
+.product-detail-page form button:hover {
+    background-color: #0056b3;
+}
+/* product detail page form button disabled state
+.product-detail-page form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+/* Registration Page
+.registration-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+/* Registration Page Form
+.registration-page form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+/* Registration Page Form Title
+.registration-page form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+/* Registration Page Form Input
+.registration-page form input[type="text"],
+.registration-page form input[type="email"],
+.registration-page form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/* Registration Page Form Input Focus Effect
+.registration-page form input[type="text"]:focus,
+.registration-page form input[type="email"]:focus,
+.registration-page form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+/* Registration Page Form Button
+.registration-page form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+}
+/* Registration Page Form Button Hover Effect
+.registration-page form button:hover {
+    background-color: #0056b3;
+}
+/* Not Found Page
+.not-found-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+/* Not Found Page Message
+.not-found-page h2 {
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Not Found Page Button
+.not-found-page a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+}
