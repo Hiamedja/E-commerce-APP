@@ -54,6 +54,15 @@ User profile and order history
 
 📸 Screenshots
 
+![log-in](https://github.com/user-attachments/assets/066f2874-fe65-4ae8-87ce-dce131df3e8f)
+![register](https://github.com/user-attachments/assets/4e7e32f9-699d-466d-bdfa-b843009d471f)
+![Home-page1](https://github.com/user-attachments/assets/53cfad8c-0dcb-40f4-8ec4-a9bc5c53792c)
+![Home-page2](https://github.com/user-attachments/assets/dd8bb459-1da8-4fce-a10b-19b232718340)
+![Home-page3](https://github.com/user-attachments/assets/d2c14bdb-2e57-41ba-b26f-8dce1b68b824)
+![Home-page4](https://github.com/user-attachments/assets/d4641cc4-3d31-44e4-a903-09bab220b8fd)
+![view product](https://github.com/user-attachments/assets/3ec5445f-b24d-430a-8ff2-9db65f0a48d8)
+![add-to-ur-cart](https://github.com/user-attachments/assets/77a0d95f-21ae-47a8-aaa7-2c3c139f347a)
+
 
 
 
