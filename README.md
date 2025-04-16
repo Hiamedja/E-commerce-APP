@@ -36,6 +36,7 @@ cd react-ecommerce-store
 2. **Install dependencies**
 
 npm install
+
 3. **Run the dev server**
 
 npm run dev
