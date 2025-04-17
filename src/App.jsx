@@ -8,7 +8,6 @@ import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-// import { CartProvider } from "./context/CartContext";
 import './main.css';
 
 
