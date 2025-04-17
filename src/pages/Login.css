@@ -44,7 +44,7 @@
   }
   
   h2 {
-    /* margin-bottom: 0.5rem; */
+    
     font-size: 2rem;
   }
   
@@ -169,7 +169,7 @@
     }
   
     .login-image-section {
-      order: -1; /* affiche l’image en haut sur mobile */
+      order: -1; 
       padding: 1rem;
     }
   
