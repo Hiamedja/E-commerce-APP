@@ -22,8 +22,6 @@ A modern and responsive e-commerce frontend app built with **React**. This proje
 - LocalStorage (for login state and cart)
 - Vite (or CRA depending on setup)
 
-## 📂 Project Structure
-src/ ├── components/ │ └── Navbar.jsx ├── pages/ │ ├── Home.jsx │ ├── ProductDetail.jsx │ ├── Cart.jsx │ ├── Login.jsx │ └── Register.jsx ├── context/ │ └── CartContext.jsx ├── App.jsx ├── main.jsx └── main.css
 
 
 ## 🧰 How to Run It Locally
