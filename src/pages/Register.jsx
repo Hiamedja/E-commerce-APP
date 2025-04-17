@@ -1,16 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import "./Register.css"; // Import your CSS file for styling
+import "./Register.css"; 
 import testImage from '../images/test.png';
 
 const Register = () => {
   useEffect(() => {
-      // Disable scrolling when the login page is active
       document.body.style.overflow = "hidden";
   
       return () => {
-        // Re-enable scrolling when the login page is unmounted
         document.body.style.overflow = "auto";
       };
     }, []);
